@@ -1,0 +1,30 @@
+.top-container{
+    background-color: #58bfe1;
+    position: relative;
+    padding-top: 100px;
+}
+body{
+
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+.top-logo{
+    background-color: #58bfe1;
+
+}
+.title-text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font: 600;
+}
+.pro{
+    text-decoration: underline;
+}
