@@ -1,34 +1,30 @@
 .top-container{
     display: block;
     unicode-bidi: isolate;
-    background-color: #75d7f5;
+    background-color: #b4eafa;
     position: relative;
     padding-top: 100px;
     height: 700px;
 }
 body{
     text-align: center;
-    font-family:sans-serif;
-    color: #40514e;
+    font-family: "Merriweather", serif;
 }
-.name{
+.name1{
     padding-bottom: 20px;
     unicode-bidi: isolate;
-    color: rgb(40, 9, 53)6;
     font-size: 6rem;
     margin: 50px auto 0 auto;
     font-family:cursive;
 }
 
 .title-text{
-    font-size: 10rem;
     padding-top: 100px;
     display: block;
     unicode-bidi: isolate;
     text-align: center;
     font-family:monospace;
-    font: 600;
-    color: rgb(40, 9, 53);
+    color: rgba(94, 39, 146, 0.836);
 }
 .pro{
     text-decoration: underline;
@@ -66,5 +62,29 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+h1{
+    text-align: center;
+}
+h3 {
+    color: rgb(204, 204, 51);
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     unicode-bidi: isolate;
 }
