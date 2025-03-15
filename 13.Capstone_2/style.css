@@ -9,7 +9,7 @@ body{
     height: 700px;
 }
 .top-controller{
-    display: block;
+    display: flex;
     position: absolute;
     right: 300px;
     top: 40px;
@@ -68,7 +68,7 @@ h4{
     rotate: 180deg;
 }
 .chess-pieces{
-    display: block;
+    display: flex;
     position: absolute;
     left: 250px;
     bottom: 150px;
@@ -86,12 +86,14 @@ img {
     border-radius: 50%;
 }
 p {
-    display: block;
+    
+    justify-content: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family:cursive;
+    unicode-bidi: isolate;
 }
 .contact-me{
     display: block;
